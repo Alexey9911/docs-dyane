@@ -1,122 +1,95 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Ghost Link",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#9CA3AF",
+    "light": "#6B7280",
+    "dark": "#1A1A1A"
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Try Ghost",
+          "icon": "ghost",
+          "href": "https://ghostlinkfinance.com"
+        },
+        {
+          "anchor": "Twitter",
+          "icon": "x-twitter",
+          "href": "https://x.com/GhostLinkFi"
+        }
+      ]
+    },
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Whitepaper",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Overview",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "protocol"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Features",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "features/send",
+              "features/Distribute",
+              "features/sweep"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Token",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "token/overview",
+              "token/tokenomics"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "About",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "about/faq",
+              "about/roadmap",
+              "about/links"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logoDark.svg",
+    "dark": "/logoWhite.svg",
+    "height": 120
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Telegram",
+        "href": "https://t.me/GhostLinkFinance"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Try Ghost",
+      "href": "https://ghostlinkfinance.com"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/GhostLinkFi",
+      "telegram": "https://t.me/GhostLinkFinance",
+      "website": "https://ghostlinkfinance.com"
     }
+  },
+  "seo": {
+    "indexHiddenPages": false
+  },
+  "appearance": {
+    "default": "dark"
   }
 }

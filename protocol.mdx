@@ -1,0 +1,67 @@
+---
+title: "Protocol"
+description: "How Ghost Link enables private payments on Solana"
+---
+
+## How Ghost Link Works
+
+Ghost Link enables private transfers on Solana across multiple assets. Send, distribute, or sweep SOL, USDC, and USDT without exposing your wallet connections.
+
+## Core Features
+
+<CardGroup cols={3}>
+<Card title="Send" icon="paper-plane">
+Private one-to-one transfers across SOL, USDC, and USDT
+</Card>
+
+<Card title="Distribute" icon="users">
+Send to multiple recipients privately with batch operations
+</Card>
+
+<Card title="Sweep" icon="broom">
+Consolidate wallets without trace across supported assets
+</Card>
+</CardGroup>
+
+## Supported Assets
+
+Ghost Link provides unified privacy protection across:
+
+- **SOL** - Native Solana token with full zero-knowledge privacy
+- **USDC** - USD Coin with encrypted transaction flows
+- **USDT** - Tether with complete transaction privacy
+
+All supported assets benefit from the same cryptographic guarantees and privacy protection.
+
+## Privacy Architecture
+
+Ghost Link uses a multi-layered approach to transaction privacy:
+
+1. **Zero-Knowledge Proofs** - Validate transactions without revealing sensitive data
+2. **Temporary Wallet Generation** - Break on-chain links between sender and recipient  
+3. **Cryptographic Mixing** - Obscure transaction patterns and amounts
+4. **Multi-Asset Support** - Unified privacy layer across SOL and stablecoins
+
+## Why Privacy Matters
+
+- Your transaction history is public by default on Solana
+- Anyone can see your wallet balance and connections across all tokens
+- Ghost Link breaks the on-chain link between sender and recipient
+- Protects both SOL and stablecoin transaction metadata
+
+<Note>
+Privacy is not about hiding. It's about choosing what to reveal.
+</Note>
+
+## Technical Implementation
+
+Ghost Link integrates with Privacy Cash protocol to provide:
+
+- **Deposit Phase**: Assets are deposited into the privacy pool with ZK proofs
+- **Mixing Phase**: Transactions are cryptographically mixed with other users
+- **Withdrawal Phase**: Clean assets are withdrawn to recipient addresses
+- **Multi-Token Support**: Same privacy guarantees across SOL, USDC, and USDT
+
+<Card title="Get Started" icon="rocket" href="https://ghostlinkfinance.com">
+Start making private transactions with Ghost Link today.
+</Card>

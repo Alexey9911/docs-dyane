@@ -1,0 +1,43 @@
+$GLINK Tokenomics
+Marketing & Community Reserve
+5% of Total Supply - Strategic Growth Allocation
+
+A dedicated 5% of the total GHOST token supply has been strategically allocated and secured in a time-locked smart contract for marketing initiatives and community development programs. This allocation ensures sustainable growth and community engagement over the project's critical early phases.
+
+Vesting Schedule & Release Mechanism
+12-Month Lock Period with Quarterly Unlocks
+
+• Initial Lock Period: 12 months from token generation event (TGE) • Unlock Schedule: 25% released every quarter (3 months) • Total Vesting Duration: 4 quarters post-lock period • Smart Contract Secured: All tokens are held in audited time-lock contracts
+
+Quarterly Release Breakdown
+Q1: 25% of marketing reserve unlocked (1.25% of total supply)
+
+Q2: 25% of marketing reserve unlocked (1.25% of total supply)
+
+Q3: 25% of marketing reserve unlocked (1.25% of total supply)
+
+Q4: Final 25% of marketing reserve unlocked (1.25% of total supply)
+
+Fund Utilization Strategy
+Marketing & Community Growth Initiatives
+
+Strategic Partnerships Collaborations with key DeFi protocols and privacy-focused projects
+
+Community Incentives Rewards for active community members, content creators, and ambassadors
+
+Marketing Campaigns Targeted advertising, influencer partnerships, and brand awareness initiatives
+
+Developer Grants Funding for third-party developers building on Ghostlink infrastructure
+
+Event Sponsorships Conference participation, hackathons, and industry events
+
+Educational Content Documentation, tutorials, and privacy education resources
+
+Transparency & Governance
+Public Wallet Addresses: All marketing wallets are publicly viewable on-chain
+
+Quarterly Reports: Detailed spending reports published each quarter
+
+Community Oversight: Major allocation decisions subject to community discussion
+
+This structured approach ensures responsible token distribution while maintaining long-term project sustainability and community trust.

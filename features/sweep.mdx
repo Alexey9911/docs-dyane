@@ -1,0 +1,69 @@
+---
+title: "Sweep"
+description: "Wallet consolidation tool for fund recovery"
+---
+
+<Card title="Try Sweep" icon="broom" href="https://ghostlinkfinance.com/sweep">
+  Launch the Sweep feature now
+</Card>
+
+## Wallet Consolidation Tool
+
+Sweep allows you to consolidate funds from multiple wallets into a single destination. Perfect for recovering funds from old wallets, bot wallets, or batch-generated wallets.
+
+## How Sweep Works
+
+<Steps>
+  <Step title="Paste Private Keys">
+    Enter private keys, one per line.
+  </Step>
+  <Step title="Scan Wallets">
+    Automatically check all balances.
+  </Step>
+  <Step title="Review Results">
+    See total recoverable amount.
+  </Step>
+  <Step title="Enter Destination">
+    Specify where to send consolidated funds.
+  </Step>
+  <Step title="Execute Recovery">
+    All funds transferred in optimized batches.
+  </Step>
+</Steps>
+
+## Use Cases
+
+| Use Case | Description |
+|----------|-------------|
+| Old Wallets | Recover forgotten SOL from dormant wallets |
+| Bot Wallets | Consolidate funds from trading or sniper bots |
+| Batch Export | Recover from previously distributed wallets |
+| Test Wallets | Clean up development and testing accounts |
+
+## Scan Results
+
+The scanner provides detailed information:
+
+- Total Wallets Scanned: Number of keys processed
+- Wallets With Balance: Count of wallets containing funds
+- Total Recoverable: Sum of all available SOL
+- Per-Wallet Breakdown: Individual balances displayed
+
+## Technical Details
+
+| Parameter | Value |
+|-----------|-------|
+| Max Wallets | Unlimited |
+| Min Recoverable | ~0.001 SOL (after fees) |
+| Network Fee | ~0.000005 SOL per wallet |
+| Empty Wallets | Skipped automatically |
+
+## Supported Key Formats
+
+- Base58 encoded private keys
+- Standard Solana keypair format
+- One key per line
+
+<Note>
+  The sweep tool scans both public SOL balance and any shielded balance. Network fees are deducted automatically from each wallet.
+</Note>

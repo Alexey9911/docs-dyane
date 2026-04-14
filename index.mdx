@@ -1,97 +1,74 @@
 ---
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
+title: "Ghost Link"
+description: "Zero-Knowledge Payment Module on Solana"
 ---
 
-## Setting up
+<div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+<img src="/frame.png" alt="Private payments. Cryptographic guarantees. No trust required." style={{ width: '100%', maxWidth: '1500px' }} />
+</div>
 
-Get your documentation site up and running in minutes.
+## Introduction
 
-<Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
-  horizontal
->
-  Follow our three step quickstart guide.
+Ghost Link is a privacy-first payment routing layer built on Solana, powered by zero-knowledge proofs. It enables payments to be validated and settled without requiring users or applications to expose wallet addresses, balances, or funding structure as part of the payment flow.
+
+As blockchains scale, payments have become a major source of unnecessary information leakage. Today, initiating a payment often reveals far more context than is required to prove correctness and complete settlement.
+
+Ghost Link addresses this at the payment layer, without changing Solana's execution model.
+
+## What Ghost Link Does
+
+<CardGroup cols={1}>
+<Card title="Private Payment Routing">
+Payments can be initiated without directly exposing sender wallet addresses as part of the payment process.
 </Card>
 
-## Make it yours
+<Card title="Multi-Token Privacy Support">
+Support for private transactions across SOL, USDC, and USDT with zero-knowledge proofs protecting transaction metadata.
+</Card>
 
-Design a docs site that looks great and empowers your users.
+<Card title="Multi-Wallet Private Funding">
+Payments can be funded from multiple wallets in a single flow, with zero-knowledge proofs verifying sufficiency and authorization without revealing the funding structure.
+</Card>
 
-<Columns cols={2}>
-  <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
-  >
-    Edit your docs locally and preview them in real time.
-  </Card>
-  <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
-  >
-    Customize the design and colors of your site to match your brand.
-  </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
-  <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
-  >
-    Auto-generate API documentation from OpenAPI specifications.
-  </Card>
-</Columns>
+<Card title="Zero-Knowledge Enforcement">
+All guarantees are enforced cryptographically using ZK proofs, not custodial or trust-based models.
+</Card>
+</CardGroup>
 
-## Create beautiful pages
+Settlement remains fully on Solana. Only the minimum information required to finalize the payment is disclosed.
 
-Everything you need to create world-class documentation.
+## Supported Assets
 
-<Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
-    Use MDX to style your docs pages.
-  </Card>
-  <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
-  >
-    Add sample code to demonstrate how to use your product.
-  </Card>
-  <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
-  >
-    Display images and other media.
-  </Card>
-  <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
-  >
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
+Ghost Link currently supports private transactions for:
 
-## Need inspiration?
+- **SOL** - Native Solana token with full privacy protection
+- **USDC** - USD Coin with encrypted transaction flows  
+- **USDT** - Tether with zero-knowledge transaction validation
 
-<Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
->
-  Browse our showcase of exceptional documentation sites.
+<Note>
+All supported tokens benefit from the same level of cryptographic privacy protection.
+</Note>
+
+## Why It Matters
+
+<Note>
+Public execution does not require public intent.
+</Note>
+
+As payments become a primary interface for users and businesses, reducing unnecessary exposure becomes a UX, security, and infrastructure requirement, not a niche feature.
+
+Ghost Link separates payment validity from wallet visibility, enabling more mature payment flows that scale with real-world usage.
+
+## Core Principles
+
+| Principle | Description |
+|-----------|-------------|
+| Privacy by Default | Every transaction is shielded from public view |
+| Multi-Asset Support | Unified privacy layer across SOL and major stablecoins |
+| Non-Custodial | Users maintain full control of their assets at all times |
+| Trustless | Mathematical proofs replace the need for trusted intermediaries |
+| Solana-Native | Built to leverage Solana's high-performance architecture |
+
+<Card title="Continue Reading" icon="arrow-right" href="/protocol">
+Learn how the Ghost Link protocol works under the hood.
 </Card>
